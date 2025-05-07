@@ -1,0 +1,114 @@
+.header{
+    background-color: rgba(115, 30, 30, 0.32);
+}
+
+header{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    width: 50%; 
+    margin-left: 376px;  
+}
+
+a{
+    color:black;   
+    text-decoration: none;
+    font-family: "Inter", Italic;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    background-color: rgba(115, 30, 30, 1);
+    height: 670px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    color: blanchedalmond;
+}
+
+.text{
+    margin-top: 85px;
+    margin-left: 85px;
+    width: 50%;
+}
+
+.label{
+    font-size: 40px;
+    font-family: "Inter", Italic;
+    margin-bottom: 40px;
+    color:blanchedalmond;
+    text-align: center;
+}
+
+.net{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 30px;
+    align-items: center;
+    color:blanchedalmond;
+    margin-left: 140px;
+}
+
+.form{
+    font-family:"Inter", Italic ;
+    margin-top: 85px;
+    margin-left: 85px;
+    margin-right: 85px;
+    width: 50%;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.lbl{
+    padding-top: 10px;
+}
+.form form{
+    width: 100%;
+    height: 500px;
+    padding: 20;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+
+}
+
+.form-control{
+    width: 80%;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    border: 1px solid brown;
+    
+}
+
+.form-group{
+    margin: 20px 30px 30px 80px;
+    padding: 0 0px;
+}
+
+.btn{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color:brown;
+    cursor:pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius:4px ;
+}
+
+.label{
+    margin-left: 40px;
+}
